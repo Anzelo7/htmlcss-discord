@@ -1,0 +1,380 @@
+/*css default*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    align-items: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .wrap {
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex-direction: column;
+  }
+  
+  .h600 {
+    width: 1900px;
+    height: 600px;
+  }
+  
+  .h800 {
+    width: 1900px;
+    height: 800px;
+  }
+  
+  .grey-wave{
+    display: block;
+    color: rgb(227, 228, 231);
+    fill: rgb(227, 228, 231);
+  }
+  
+  .grey-wave .last{
+    display: block;
+    transform-origin: rotate(180deg);
+  }
+  
+  .white-wave{
+    display: block;
+    background-color: rgb(227, 228, 231);
+  }
+  
+  
+  /*header*/
+  /*menu*/
+  
+  .top {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img_discord/jumbo.png);
+    background-size: cover;
+  }
+  
+  .menu {
+    font-size: 15px;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /*.logo{
+      
+    }*/
+  
+  .link a {
+    font-weight: 600;
+    margin: 1rem;
+    color: white;
+  }
+  
+  .login {
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    background-color: white;
+  }
+  
+  .login a {
+    color: rgb(56, 56, 56);
+    font-weight: 600;
+  }
+  
+  /*/menu*/
+  
+  /*browser*/
+  
+  .browser {
+    width: 660px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  
+  .browser h1 {
+    font-size: 46px;
+    margin-bottom: 40px;
+  }
+  
+  .browser a:first-of-type{
+    margin: 20px;
+    padding: 0px 30px;
+    border-radius: 40px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+  }
+  
+  .browser a:last-of-type {
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+  }
+  
+  .browser a span{
+    margin-right: 30px;
+  }
+  
+  .browser a span svg:not(:root){
+    width: 0.7px;
+    height: -1%;
+    overflow: visible;
+  }
+  
+  .browser a span svg path:not(svg){
+    transform-origin: right top;
+  }
+  
+  #Macdownload{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  /*/browser*/
+  /*/heeader*/
+  
+  /*main*/
+  
+  .flex .content {
+    justify-content: space-around;
+  }
+  
+  .white{
+    background-color: white;
+  }
+  
+  .lightgrey {
+    background-color: rgb(227, 228, 231);
+  }
+  
+  .content p {
+    margin: 80px 200px;
+    font-size: 15px;
+  }
+  
+  /*studygroup*/
+  
+  .flex .studygroup {
+    width: 660px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .studygroup h2 {
+    margin: 90px 200px;
+    font-size: 35px;
+    line-height: 2.5rem;
+    margin-bottom: -50px;
+  }
+  
+  /*/studygroup*/
+  
+  /*voicecon*/
+  
+  .flex .voicecon {
+    width: 660px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .voicecon h2 {
+    margin: 100px 200px;
+    font-size: 35px;
+    line-height: 2.5rem;
+    margin-bottom: -50px;
+  }
+  
+  /*/voicecon*/
+  
+  /*fandom*/
+  
+  .flex .fandom {
+    width: 660px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .fandom h2 {
+    margin: 100px 200px;
+    font-size: 35px;
+    line-height: 2.5rem;
+    margin-bottom: -50px;
+  }
+  
+  /*/fandom*/
+  
+  /*forend*/
+  
+  .flex .forend {
+    display: grid;
+    justify-items: center;
+  }
+  
+  .flex .text {
+    width: 1000px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  
+  .text h2{
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  #text{
+    margin: 0 170px;
+    font-size: 12px;
+    width: 650px;
+  }
+  
+  #star{
+    text-align: center;
+    width: 600px;
+    height: 120px;
+    margin-bottom: 7px;
+    line-height: 4rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(img_discord/stars.svg);
+  }
+  
+  .forend a{
+    margin-left: 6px;
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 40px;
+    color: white;
+    background-color: #5865f2;
+  }
+  
+  .forend a span{
+    margin-right: 30px;
+  }
+  
+  .forend a > #arrow > svg:not(:root){
+    width: 0.7px;
+    height: -1%;
+    overflow: visible;
+  }
+  
+  /*/forend*/
+  /*/main*/
+  
+  /*footer*/
+  
+  .flex .foot {
+    flex-direction: column;
+    background-color: rgb(67, 67, 67);
+  }
+  
+  /*link*/
+  
+  .footer-link {
+    width: 1200px;
+    margin: 100px 355px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    font-weight: 600;
+  }
+  
+  .footer-link h1 {
+    text-align: start;
+    font-size: 40px;
+    padding: 1%;
+    line-height: 3rem;
+    color: #5865f2;
+  }
+  
+  .ita{
+    margin-top: 20px;
+  }
+  
+  .ita span{
+    color: white;
+  }
+  
+  .icons{
+    color: white;
+    letter-spacing: 2rem;
+    line-height: 5rem;
+  }
+  
+  .footer-link h3 {
+    color: #5865f2;
+  }
+  
+  .footer-link a {
+    font-weight: 600;
+    color: white;
+    line-height: 2rem;
+  }
+  
+  hr {
+    width: 1200px;
+    height: 2px;
+    border: none;
+    background-color: #5865f2;
+    align-self: center;
+  }
+  /*/link*/
+  
+  .flex .footer-endline {
+    width: 1200px;
+    margin-left: 360px;
+    font-size: 12px;
+    height: 60px;
+    background-color: rgb(67, 67, 67);
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer-endline {
+    justify-items: center;
+  }
+  
+  .signup {
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    background-color: #5865f2;
+  }
+  
+  .signup a {
+    color: white;
+    font-weight: 600;
+  }
+  
+  /*/footer*/
